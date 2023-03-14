@@ -1,10 +1,11 @@
 function getData(board) {
   $.getJSON("https://rainestorme.github.io/chrome81/"+board+".json", function( data ) {
-    $("#devices").text("Devices: " + data.devices.join(", "));
+    $("#devices").text("Device(s): " + data.devices.join(", "));
    
     var ul = $("#versions");
     $.each(data.versions, function(key, value) {
       var li = $("<li></li>");
+      li.append(key + " (" + value.platform + ") - ");
       var a;
       if (value.magnet) {
         a = $("<a></a>").attr("href", value.magnet).text("magnet");
