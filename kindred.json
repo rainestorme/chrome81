@@ -1,0 +1,47 @@
+{
+  "devices": [
+    "Acer Chromebook 712 [C871]"
+  ],
+  "versions": {
+    "81": {
+      "platform": "12871.102.0",
+      "magnet": "magnet:?xt=urn:btih:5IA6BSDNBF5RSSYNSUOGRLWSW3WMTADA&dn=chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip&xl=1391737564&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.skynetcloud.site%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce",
+      "torrent": "https://rainestorme.github.io/chrome81/torrents/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip.torrent",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "101": {
+      "platform": "14588.98.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "103": {
+      "platform": "14816.131.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "105": {
+      "platform": "14989.107.0",
+      "magnet": "magnet:?xt=urn:btih:2QQT4EHPCOELNWKH3MF6AM47OLH5HTJ5&dn=chromeos_14989.107.0_hatch_recovery_stable-channel_mp-v6.bin&xl=4968947200&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.monitorit4.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fpublic.tracker.vraphim.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.skynetcloud.site%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.lelux.fi%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.altrosky.nl%3A6969%2Fannounce",
+      "torrent": "https://rainestorme.github.io/chrome81/torrents/chromeos_14989.107.0_hatch_recovery_stable-channel_mp-v6.bin.torrent",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14989.107.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "106": {
+      "platform": "15054.114.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15054.114.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "107": {
+      "platform": "15117.112.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.112.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "108": {
+      "platform": "15183.78.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15183.78.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "109": {
+      "platform": "15236.80.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15236.80.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "110": {
+      "platform": "15278.72.0",
+      "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.72.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    }
+  }
+}
