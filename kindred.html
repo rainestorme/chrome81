@@ -16,18 +16,9 @@
   <h1>Chrome81 - Kindred</h1>
   <a href="./index.html">Back</a>
 
-  <p>Devices: Acer Chromebook 712 [C871]</p>
+  <p id="devices">Loading data...</p>
 
-  <ul>
-    <li>v110 (15278.72.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.72.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li>
-    <li>v109 (15236.80.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15236.80.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li> 
-    <li>v108 (15183.78.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15183.78.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li>
-    <li>v107 (15117.112.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15117.112.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li> 
-    <li>v106 (15054.114.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15054.114.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li>
-    <li>v105 (14989.107.0) - <a href="./torrents/chromeos_14989.107.0_hatch_recovery_stable-channel_mp-v6.bin.torrent">torrent</a>* <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14989.107.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li> 
-    <li>v103 (14816.131.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14816.131.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li> 
-    <li>v101 (14588.98.0) - <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_14588.98.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li> 
-    <li>v81 (12871.102.0) - <a href="magnet:?xt=urn:btih:5IA6BSDNBF5RSSYNSUOGRLWSW3WMTADA&dn=chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip&xl=1391737564&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.skynetcloud.site%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce">magnet</a>* <a href="./torrents/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip.torrent">torrent</a>* <a href="https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip">direct</a></li>
+  <ul id="versions">
   </ul>
   
   <p>*: Currently not being seeded - help out by directly downlading and seeding</p>
@@ -57,9 +48,11 @@
   <!-- ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░░░▄█░░ -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="./parser.js"></script>
   <script type="text/javascript">
     $(window).on('load', function() {
       $("#loader-wrapper").fadeOut(700);
+      getData("kindred");
     });
   </script>
 </body>
