@@ -1,5 +1,5 @@
 function getData(board) {
-  $.getJSON("https://rainestorme.github.io/"+board+".json", function( data ) {
+  $.getJSON("https://rainestorme.github.io/chrome81/"+board+".json", function( data ) {
     $("#devices").text("Devices: " + data.devices.join(", "));
    
     var ul = $("#versions");
