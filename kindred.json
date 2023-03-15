@@ -8,7 +8,7 @@
       "magnet": "magnet:?xt=urn:btih:5IA6BSDNBF5RSSYNSUOGRLWSW3WMTADA&dn=chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip&xl=1391737564&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.skynetcloud.site%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce",
       "torrent": "https://rainestorme.github.io/chrome81/torrents/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip.torrent",
       "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_12871.102.0_hatch_recovery_stable-channel_mp-v6.bin.zip",
-      "seeded": "n"
+      "seeded": "y"
     },
     "101": {
       "platform": "14588.98.0",
