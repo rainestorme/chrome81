@@ -44,6 +44,10 @@
     "110": {
       "platform": "15278.72.0",
       "direct": "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_15278.72.0_hatch_recovery_stable-channel_mp-v6.bin.zip"
+    },
+    "RMA Shim": {
+      "platform": "raw",
+      "direct": "https://mirror.the-repo.org/RMA/Shims/hatch.bin"
     }
   }
 }
