@@ -47,7 +47,8 @@
     },
     "RMA Shim": {
       "platform": "raw",
-      "direct": "https://mirror.the-repo.org/RMA/Shims/hatch.bin"
+      "direct": "https://mirror.the-repo.org/RMA/Shims/hatch.bin",
+      "direct2": "https://dl.sh1mmer.me/raw%20shims/hatch.bin"
     }
   }
 }
