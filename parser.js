@@ -28,6 +28,11 @@ function getData(board) {
         li.append(a);
         li.append(" ");
       }
+      if (value.direct2) {
+        a = $("<a></a>").attr("href", value.direct2).text("direct 2");
+        li.append(a);
+        li.append(" ");
+      }
       ul.append(li);
     });
     
